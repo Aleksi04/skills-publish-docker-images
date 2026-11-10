@@ -36,7 +36,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.Devops.Test.Group }}
+          password: ${{ secrets.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 }}
 
       - name: Lowercase the repo name
         run: echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
